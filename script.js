@@ -8,7 +8,7 @@ let gameInterval;
 let obstacleInterval;
 let obstacles = [];
 let gameOver = false;
-let score = 0;
+let score = 0;  
 
 // Cargar sonidos
 const crashSound = new Audio('assets/crash.mp3');
