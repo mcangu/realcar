@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+  font-family: Arial, sans-serif;
+}
+
+#gameArea {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  background-color: #444;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+
+#car {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 50px;
+  transform: translateX(-50%);
+}
+
+.obstacle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+#leftArrow {
+  left: 10px;
+}
+
+#rightArrow {
+  right: 10px;
+}
